@@ -141,6 +141,11 @@ class nodejs(
       # we must not install it separately
     }
 
+    'Debian': {
+      # The PPA we are using on Ubuntu includes NPM in the nodejs package, hence
+      # we must not install it separately
+    }
+
     'Gentoo': {
       # Gentoo installes npm with the nodejs package when configured properly.
       # We use the gentoo/portage module since it is expected to be
